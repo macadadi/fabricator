@@ -1,0 +1,15 @@
+.main{
+	padding-top: 10px;
+	height: 80vh;
+}
+.main > h5{
+	color: dark;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.facebook{
+	font-size: 4rem;
+	color:green;
+
+};

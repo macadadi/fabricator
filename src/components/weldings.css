@@ -1,0 +1,58 @@
+.welding{
+	width: 100%;
+	background-color: green;
+	height: 60vh;
+}
+   /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    .left-row{
+    	background-color: #CCFFE5;
+    	height: 400px;
+    }
+      .right-row{
+    	background-color: rgb(136,26,178);
+    	height: 400px;
+    }
+       .footer{
+    	background-color:#FFFFFF;
+    	text-align: center;
+    	width: 500px;
+
+    }
+
+    img{
+      height: 120px;
+      object-fit: contain;
+    }
+    .left-row{
+     display: inline-flex;
+     flex-wrap: wrap;
+      overflow-x: hidden;
+      
+    }
+    .object{
+    padding-left: 40px;
+
+    }
