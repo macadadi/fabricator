@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# a simple we application to implement react rooting
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
