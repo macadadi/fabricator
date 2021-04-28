@@ -1,7 +1,7 @@
 import './banner.css'
-import slide1 from './slide1.png'
-import slide2 from './slide2.png'
-import slide3 from './slide3.png'
+import slide1 from './slide1.jpg'
+import slide2 from './slide2.jpg'
+import slide3 from './slide3.jpg'
 import Welding from './Welding'
 
 function Banner(argument) {

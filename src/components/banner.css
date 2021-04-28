@@ -1,8 +1,9 @@
 #carouselExampleIndicators{
-	height: 60vh
+	height: 60vh;
+	background-color: purple;
 }
 .d-block{
-	object-fit: contain;
-	height: 58vh;
+	object-fit: cover;
+	height: 65vh;
 	width: 100%
 }

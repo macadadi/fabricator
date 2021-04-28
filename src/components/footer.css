@@ -1,11 +1,12 @@
 .footer{
 	height: 3rem;
 	width: 100%;
+	padding: auto;
+	justify-content: center;
+	display: flex;
+	background-color: whitesmoke;
+	border-radius: 10px;
+
 	
 	
-}
-@media only screen and (max-width: 600px) {
-  .footer{
-    position: fixed;
-  }
 }

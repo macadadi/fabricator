@@ -10,11 +10,8 @@ function About() {
 		 comfortable, affordable and not only just right for your budget but 
 		 will surely also suite your taste.
 
-		<i className="fa fa-facebook facebook fa-4x"></i>
-		<i className="fa fa-camera" aria-hidden="true"></i>
 
-
- </h5>s
+ </h5>
 
 
 		</div>)

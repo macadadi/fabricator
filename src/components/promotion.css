@@ -1,0 +1,20 @@
+.promo{
+	background-color: whitesmoke;
+	height: auto;
+
+
+}
+.innerpromo{
+	padding-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.innerpromo > h5{
+	padding-left: 70px;
+	padding-right: 70px;
+	font-weight: lighter;
+}
