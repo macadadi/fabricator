@@ -4,8 +4,21 @@ import {Link} from 'react-router-dom'
 
 
 function Navbar(){
+  document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('scrollstyle');
+        // add padding top to show content behind navbar
+    
+      } else {
+        document.getElementById('navbar_top').classList.remove('scrollstyle');
+         // remove padding top from body
+
+      } 
+  });
+});
 	return(<div class="container">
-		<nav class="navbar container fixed-top navbar-expand-lg  navbar-light ">
+		<nav class="navbar container fixed-top navbar-expand-lg  navbar-light " id='navbar_top'>
   <Link to='/' class="navbar-brand" href="#">Fabricators</Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
