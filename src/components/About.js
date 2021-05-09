@@ -1,7 +1,7 @@
 import React from 'react';
+
+import Social from './Social'
 import './about.css'
-
-
 function About() {
 	return(<div className='main'>
 		<h5>
@@ -12,7 +12,7 @@ function About() {
 
 
  </h5>
-
+ <Social />
 
 		</div>)
 }

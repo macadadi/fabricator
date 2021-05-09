@@ -8,8 +8,43 @@
 	font-style: italic;
 }
 
-.facebook{
-	font-size: 4rem;
-	color:green;
+.social-container{
+	display: inline-block;
+     padding: 10px 50px;
+     
+}
+.social{
+	margin: 0px 0.5rem;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
 
-};
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+.tsocial{
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-style: italic;
+	font-family: all;
+}
